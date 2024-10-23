@@ -1,0 +1,38 @@
+.summary-container {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 20px 0px 20px;
+
+  }
+  
+  .summary-button {
+    background-color: #a175f7;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: #8b5ce6;
+    }
+  }
+
+  
+  .summary-textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+    resize: none; /* Disable manual resizing */
+    outline: none; /* Removes the outline on focus */
+    background-color: #fff;
+  }
+  

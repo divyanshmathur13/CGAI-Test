@@ -1,0 +1,52 @@
+.nav-bar {
+    background-color: #F9FAF8;
+    width: 80px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #ccc;
+  }
+  
+  .nav-list {
+    padding-top: 20px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-item {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height: 50px;
+
+  }
+  
+  .nav-item a:hover {
+    background-color: #e2e6ea;
+    border-radius: 10px;
+  }
+  
+  .nav-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .nav-item:last-child {
+    margin-top: auto; /* Push the last icons (like settings and profile) to the bottom */
+  }
+  .nav-item a.active {
+    background-color: #e2e6ea; /* Same background as hover */
+    border-radius: 10px; /* Same border radius as hover */
+}

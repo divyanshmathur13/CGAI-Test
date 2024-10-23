@@ -1,0 +1,141 @@
+.upload-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    align-items: center;
+  }
+  
+  .upload-modal {
+    background: white;
+    border-radius: 8px;
+    width: 596px;
+    padding: 20px;
+  }
+  
+  .upload-wrapper {
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 2px dashed #e0e0e0;
+  }
+  
+  .upload-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .upload-progress {
+    margin-top: 20px;
+  }
+  
+  .progress-bar {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    height: 8px;
+    width: 100%;
+  }
+  
+  .progress {
+    background-color: #4caf50;
+    height: 8px;
+    border-radius: 4px;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .upload-button,
+  .close-button ,.clear-button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #a175f7;
+    color: white;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #8b5ce6;
+    }
+  }
+  
+  .upload-files {
+    padding-top: 12px;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  
+  .warning-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .uploaded-files-list {
+    margin-top: 15px;
+    text-align: left;
+
+    h6 {
+      margin-bottom: 5px;
+    }
+.file-item-list
+{
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 4px;
+
+  gap: 14px;
+}
+    .file-scroll {
+      display: flex;
+      flex-direction: column;
+      max-height: 150px; /* Adjust height as needed */
+      overflow-y: auto; /* Enable vertical scrolling */
+      border: 1px solid #ddd; /* Optional: Add border for better visibility */
+      padding: 10px; /* Optional: Add padding */
+      border-radius: 4px; /* Optional: Rounded corners */
+      gap: 8px;
+    }
+
+      li {
+        margin-bottom: 5px; /* Space between file names */
+        font-size: 14px; /* Font size for file names */
+        color: #333; /* Text color for file names */
+      }
+    
+  }
+
+  .remove-file
+  {
+    border: none;
+    cursor: pointer;
+    background: none;
+    img 
+    {
+      width: 12px;
+      height: 12px;
+    }
+
+  }
+  .fileItem{
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .ListWrapper{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    max-height:150px;
+    overflow-y: auto;
+  }
